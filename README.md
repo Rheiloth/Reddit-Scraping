@@ -17,9 +17,10 @@ Vous trouverez la documentation relative à l'installation d'un intrepreteur pyt
 
 Ensuite, pour installer la librairie NLTK, il suffit de lancer l'intrepréteur python3, puis d'exécuter :
 
->>> import ntlk
->>> nltk.download()
-
+```
+import ntlk 
+nltk.download()
+```
 
 Enfin, pour faire tourner la DB mongoDB localement (sur le port local 27017), il faut l'installer en suivant quelques étapes déccrites dans la documentation officielle (dépend du système d'exploitation) : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
 
