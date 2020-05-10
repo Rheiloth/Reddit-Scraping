@@ -25,11 +25,17 @@ Enfin, pour faire tourner la DB mongoDB localement (sur le port local 27017), il
 
 Par défault le port sera 27017.
 Une fois installé, pour lancer le processus il faut 
+```bash 
 >sudo systemctl start mongod
+```
 On peut vérifier si ça a fonctionné correctement avec 
+```bash 
 >sudo systemctl status mongod
+```
 et enfin on lance le mongo shell avec 
+```bash 
 >mongo
+```
 
 ## Usage
 
